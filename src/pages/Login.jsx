@@ -1,20 +1,13 @@
 import { useState, React } from "react";
-import "../styles/login.css"
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-// import img from "../assets/Picture1.png";
-// import Cpagemini from "../assets/Picture2.png";
-
 import { useNavigate } from "react-router-dom";
+import Layout from "../components/Layout";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setpassword] = useState("");
-
   const navigate = useNavigate();
-
-  console.log(email);
-  console.log(password);
   const getNavigete = () => {
     if (email == "lakshman.kl458@gmail.com" && password == "Lucky@458") {
       navigate("/navbars");
@@ -24,21 +17,7 @@ const Login = () => {
   };
 
   return (
-    <div className="login">
-      {/* <header>
-        <div className="l_img">
-          <img src={img} />
-        </div>
-        <div className="e_library">
-          <h1>
-            E-Library
-            <span> powered by </span>
-          </h1>
-        </div>
-        <img src={Cpagemini} />
-        <div></div>
-      </header> */}
-
+   <Layout>
       <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Control
@@ -60,7 +39,7 @@ const Login = () => {
           Login
         </Button>
       </Form>
-    </div>
+    </Layout>
   );
 };
 
