@@ -6,7 +6,6 @@ import Logout from "../pages/Logout";
 import "../styles/components/Header.css"
 
 const Header = () => {
-
   const [login,setLogin] = useState(true);
   return (
     <div>
