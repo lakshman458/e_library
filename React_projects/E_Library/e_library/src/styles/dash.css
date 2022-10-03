@@ -1,0 +1,127 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* .card {
+  width: 300px;
+  border-radius: 100px ;
+
+  border: 1px solid rgb(22, 22, 33) ;
+  position: relative;
+  padding: 30px 30px;
+
+  box-shadow: 1px 3px 5px black;
+} */
+
+/* p {
+  position: absolute;
+  bottom: 20px;
+  width: 45%;
+} */
+
+
+.dashbord_card.card {
+  border-radius: 50px;
+  border: 1px solid #339ca9;
+  position: relative;
+  padding: 15px 15px;
+
+  box-shadow: 1px 3px 5px black;
+}
+
+.dashbord_card  .card-body{
+  
+
+
+
+}
+
+.dashbord_card .card-text{
+  color: black;
+  position: absolute;
+  top:33px;
+  width: 150px;
+  left: -162px
+}
+
+
+
+.card-title.h5 {
+  color: #080202;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.count_card {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  top: 20px;
+    left: 1px;
+  /* padding: 20px 10px;
+  margin-left: 150px !important; */
+}
+
+ .number{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: xx-large;
+    font-weight: bold;
+ }
+
+
+ span.count_card {
+    margin-left: 150px;
+}
+
+.table_card {
+  margin-top: 27px;
+    border: 1px solid black;
+    width: 319px;
+    padding: 57px 30px;
+    border-radius: 54px;
+    box-shadow: 1px 3px 5px black;
+    margin-left:97px;
+}
+
+.table>thead {
+  vertical-align: bottom;
+  background-color: black;
+  color: azure;
+}
+
+span.subcribe_point {
+  font-size: large;
+  font-style: initial;
+  font-weight: bold;
+  /* text-align: center; */
+  margin-bottom: -8px;
+  position: absolute;
+  top: 233px;
+  left: 148px;
+  color: white;
+}
+
+/* .table-striped>tbody>tr:nth-of-type(odd)>* {
+  --bs-table-accent-bg: var(--bs-table-striped-bg);
+  color:white var(--bs-table-striped-color) ;
+  color: white;
+} */
+
+.table>:not(caption)>*>* {
+  padding: 0.5rem 0.5rem;
+  background-color: var(--bs-table-bg);
+  border-bottom-width: 1px;
+  box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+  color: white;
+}

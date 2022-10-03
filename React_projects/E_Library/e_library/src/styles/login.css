@@ -1,0 +1,74 @@
+.login{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+    flex-direction: column;
+    height: 30vh;
+   
+}
+
+button.btn.btn-primary {
+    width: 100px;
+    margin-top: 30px;
+    padding: 5px 5px;
+}
+
+h1{
+    color:white;
+
+}
+
+sub{
+    text-align: right;
+}
+    
+
+
+
+input#formBasicEmail {
+    width: 300px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    padding: 5px;
+}
+
+input#formBasicPassword {
+    width: 300px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    padding: 5px;
+    margin-top: 20px;
+
+}
+
+form {
+    text-align: center;
+    
+}
+
+.l_img{
+   
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+    /* margin-left: 20px; */
+}
+
+span{
+    display: block;
+    font-size: 15px;
+}
+
+
+img{
+    object-fit: contain;
+    
+}
+

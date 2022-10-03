@@ -1,0 +1,94 @@
+
+section{
+    width: 90% ;
+    border: 1px solid rgb(26, 9, 86);
+    border-radius: 20px;
+    padding: 40px 40px 10px;
+    box-shadow: 2px 2px 2px black;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 43px;
+}
+
+.filter_card.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    
+
+}
+
+
+
+img.card-img {
+    /* padding: 20px 20px; */
+    position: absolute;
+    top: 72px;
+    width: 106px;
+    left: 167px;
+    height: 57px;
+}
+
+.e_books_list{
+    display: flex; 
+     flex-direction: row;
+    flex-wrap: wrap; 
+    width: 100%;  
+    justify-content:space-around;
+    text-align: center;
+    margin-top: 35px;
+   
+}
+
+
+
+.card_list_ebooks.card {
+   /* display: flex;
+   flex-direction: row; */
+    border-radius:20px;
+    width: 25.33%;
+    border: none;
+    vertical-align: top;
+    padding: 5px 5px;
+    background-color: #0b0b2c;
+    box-shadow: 2px 2px 2px black;
+    margin-top: 20px;
+    /* justify-content:space-between; */
+}
+
+/* .card-body {
+ background-color: #0f0919;
+ border-radius: 20px;
+ position: relative;
+} */
+ .card_list_ebooks.card-title.h5 {
+    color:white  !important;
+    text-align: center ;
+}
+
+
+
+p.card-text {
+    color: aliceblue;
+    margin-left: -13px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+
+
+
+
+
