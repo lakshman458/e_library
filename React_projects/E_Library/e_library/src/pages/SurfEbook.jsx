@@ -20,6 +20,7 @@ const SurfEbook = () => {
 
   const e_Books = [
     {
+      e_book_id:1,
       titile: "Harry Potter & half  blood prince",
       Author: "J.K Rowlling",
       Category: "Novel",
@@ -29,6 +30,7 @@ const SurfEbook = () => {
       color: "",
     },
     {
+      e_book_id:2,
       titile: "Harry Potter & the prisoner of Azkanban",
       Author: "J.K Rowlling",
       Category: "Novel",
@@ -38,6 +40,7 @@ const SurfEbook = () => {
     },
 
     {
+      e_book_id:3,
       titile: "Harry Potter & the deathly hallow part 1",
       Author: "J.K Rowlling",
       Category: "Novel",
@@ -47,6 +50,7 @@ const SurfEbook = () => {
     },
 
     {
+      e_book_id:4,
       titile: "Intersteller",
       Author: "J.K Borrow",
       Category: "sci-fi",
@@ -56,6 +60,7 @@ const SurfEbook = () => {
     },
 
     {
+      e_book_id:5,
       titile: "Corporate Chanakya",
       Author: "R.K Pillai",
       Category: "Management",
@@ -65,6 +70,7 @@ const SurfEbook = () => {
     },
 
     {
+      e_book_id:6,
       titile: "Learn Angular in 24Hrs",
       Author: "J.K Rowlling",
       Category: "Technical",

@@ -91,7 +91,7 @@ h4 {
     padding: 57px 30px;
     border-radius: 54px;
     box-shadow: 1px 3px 5px black;
-    margin-left:97px;
+    margin-left:23px;
 }
 
 .table>thead {
@@ -107,9 +107,14 @@ span.subcribe_point {
   /* text-align: center; */
   margin-bottom: -8px;
   position: absolute;
-  top: 233px;
-  left: 148px;
+  top: 363px;
+  left: 280px;
   color: white;
+}
+
+table.table.table-striped {
+  margin: auto;
+  width: 262px;
 }
 
 /* .table-striped>tbody>tr:nth-of-type(odd)>* {

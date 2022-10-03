@@ -2,24 +2,27 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import img from "../assets/Picture1.png";
+// import img from "./assets/Picture1.png";
 import { BsFillBellFill } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
-import "./dashboard.css";
-import Dashbord from "../components/Dashbord";
+import "../styles/navbars.css";
+import elibrary from "../assets/elibrary.png"
+
+import Dashbord from "../pages/Dashbord";
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
 import SurfEbook from "../pages/SurfEbook";
+import Quiz from "../pages/Quiz";
 
 
 const Navbars = () => {
   return (
     <div>
-      <Navbar bg="dark">
+      <Navbar >
         <Container>
           <Navbar.Brand href="#home">
-            <img src={img} />
+            <img alt="e_book" src={elibrary} />
 
             <Navbar.Text>E-Library powered by</Navbar.Text>
           </Navbar.Brand>
@@ -63,6 +66,9 @@ const Navbars = () => {
             </Tab.Pane>
             <Tab.Pane eventKey="second">
               <SurfEbook/>
+            </Tab.Pane>
+            <Tab.Pane eventKey="three">
+              <Quiz/>
             </Tab.Pane>
           </Tab.Content>
         </Col>

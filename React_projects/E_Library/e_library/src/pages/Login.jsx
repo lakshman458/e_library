@@ -18,7 +18,7 @@ const Login = () => {
   const getNavigete = () => {
     if (email == "lakshman.kl458@gmail.com" && password == "Lucky@458") {
       navigate("/navbars");
-    } else {
+    } else{
       alert("wrong credentils");
     }
   };

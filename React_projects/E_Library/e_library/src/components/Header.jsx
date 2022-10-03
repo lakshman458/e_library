@@ -23,12 +23,11 @@ const Header = () => {
           </h1>
         </div>
        
-        <img className="logo"alt="Text_file_img" src={Cpagemini} />
-        (login  ?<Login/> :<Logout/>)
-       
+        <img className="logo"alt="Text_file" src={Cpagemini} />
+        {login ? <Login/>: <Logout logout="setLogin"/>}
       </header>
      
-    
+  
     </div>
   );
 };

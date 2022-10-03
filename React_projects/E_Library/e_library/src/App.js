@@ -4,6 +4,8 @@ import Quiz from "./pages/Quiz";
 import SurfEbook from "./pages/SurfEbook";
 import Login from "./pages/Login";
 import { Route,Routes } from "react-router-dom";
+import Emp from "./pages/Emp";
+import Navbars from "./components/Navbars.jsx"
 // import Login from "../pages/Login";
 
 function App() {
@@ -16,11 +18,11 @@ function App() {
       {/* <Navbars/> */}
 
       {/* <SurfEbook/> */}
-
+{/* <Emp/> */}
       <Routes>
         <Route path="/" element={<Header  />} />
-        {/* <Route path="/navbars" element={<Navbars/>}/>
-        <Route path="/dashbord" element={<Dashbord/>}/>
+        <Route path="/navbars" element={<Navbars/>}/>
+        {/* <Route path="/dashbord" element={<Dashbord/>}/>
         <Route path="/surf" element={<SurfEbook/>} /> */}
       </Routes>
 {/* <Header/> */}
