@@ -1,0 +1,43 @@
+.layout{
+    height: 100vh;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     background-color: rgb(11, 27, 31);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container > div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.e-logo{
+   border-radius: 50%;
+   background-color: aliceblue;
+   padding: 8px;
+}
+
+.logo {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+span {
+    font-size: initial;
+    position: absolute;
+    top: 312px;
+    left: 581px;
+}
+
+h1 {
+    margin-top: 165px !important;
+    color: white;
+}
