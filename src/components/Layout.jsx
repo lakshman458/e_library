@@ -1,6 +1,6 @@
 import{ React }from "react";
 import elibrary from "../assets/elibrary.png";
-import Cpagemini from "../assets/Picture2.png";
+import '../styles/components/layout.css'
 
 const Layout = (props) => {
   return (

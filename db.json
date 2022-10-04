@@ -1,0 +1,33 @@
+{
+    "books" : [
+        {
+            "id" :"1",
+            "title":"Harry Potter",
+            "category" :" Category test",
+            "author":"Author test"
+        },
+        {
+            "id" :"2",
+            "title":"Harry Potter 2",
+            "category" :" Category test 2",
+            "author":"Author test 2"
+        }
+    ],
+    "users" : [{
+        "id":"1",
+        "username":"lakshman",
+        "email":"lakshman.ponnaboina@capgemini.com",
+        "password_hash":"",
+        "mobile":"",
+        "subscriptions" :[
+            {
+                "id" :"1",
+                "isActive":true
+            },
+            {
+                "id" :"2",
+                "isActive":false
+            }
+        ]
+    }]
+}

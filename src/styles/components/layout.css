@@ -7,7 +7,7 @@
      background-color: rgb(11, 27, 31);
 }
 
-.container{
+.layout .container{
     display: flex;
     align-items: center;
     justify-content: center;

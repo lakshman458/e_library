@@ -3,16 +3,22 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { useNavigate } from "react-router-dom";
 import Layout from "../components/Layout";
+import store from "../store";
+import { getUser } from "../store/reducers/auth";
+import '../styles/login.css'
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setpassword] = useState("");
   const navigate = useNavigate();
-  const getNavigete = () => {
-    if (email == "lakshman.kl458@gmail.com" && password == "Lucky@458") {
-      navigate("/navbars");
-    } else{
-      alert("wrong credentils");
+
+  const getNavigete = async (event) => {
+    event.preventDefault();
+    try {
+      await store.dispatch(getUser(email, password));
+      navigate('/portal');
+    } catch (err) {
+      alert(err)
     }
   };
 
