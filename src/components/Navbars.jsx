@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 // import img from "./assets/Picture1.png";
 import { BsFillBellFill } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
-import "../styles/navbars.css";
+import "../styles/portal.css";
 import elibrary from "../assets/elibrary.png"
 
 import Dashbord from "../pages/Dashbord";

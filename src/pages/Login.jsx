@@ -16,7 +16,7 @@ const Login = () => {
     event.preventDefault();
     try {
       await store.dispatch(getUser(email, password));
-      navigate('/portal');
+      navigate('/');
     } catch (err) {
       alert(err)
     }

@@ -13,7 +13,8 @@
             "author":"Author test 2"
         }
     ],
-    "users" : [{
+    "users" : [
+        {
         "id":"1",
         "username":"lakshman",
         "email":"lakshman.ponnaboina@capgemini.com",
@@ -28,6 +29,24 @@
                 "id" :"2",
                 "isActive":false
             }
-        ]
-    }]
+            ]
+        },
+        {
+            "id":"2",
+            "username":"Nagasai",
+            "email":"nagasai.sivarathri@gmail.com",
+            "password_hash":"",
+            "mobile":"",
+            "subscriptions" :[
+                {
+                    "id" :"1",
+                    "isActive":true
+                },
+                {
+                    "id" :"2",
+                    "isActive":false
+                }
+            ]
+        }
+    ]
 }
